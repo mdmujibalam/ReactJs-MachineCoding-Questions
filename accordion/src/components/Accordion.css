@@ -1,0 +1,22 @@
+.accordion-container {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid grey;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.accordion-header {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.accordion-body {
+  padding: 5px 10px;
+}
