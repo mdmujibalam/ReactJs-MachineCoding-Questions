@@ -1,0 +1,29 @@
+:root {
+  --background-color: whitesmoke;
+  --text-primary-color:black;
+  --navbar-color: burlywood;
+  --button-color: white;
+  --button-background-color:black;
+}
+
+
+
+[data-theme="dark"]{
+  --background-color: black;
+  --text-primary-color:white;
+  --navbar-color: grey;
+  --button-color:black;
+  --button-background-color:whitesmoke;
+}
+
+body{
+  background-color: var(--background-color);
+  color:var(--text-primary-color);
+  background-color: var(--background-color);
+}
+
+button{
+  background-color: var(--button-background-color);
+  color:var(--button-color);
+  cursor: pointer;
+}
