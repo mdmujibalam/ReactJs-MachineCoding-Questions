@@ -1,0 +1,10 @@
+.gold{
+  color:gold;
+  cursor: pointer;
+  size:50px;
+}
+
+.starContainer{
+  margin:20px auto;
+  width:20%;
+}
