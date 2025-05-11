@@ -1,3 +1,9 @@
+.notification-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .notification{
     display:flex;
     width:200px;

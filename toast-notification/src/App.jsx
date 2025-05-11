@@ -4,7 +4,7 @@ import useNotification from "./hooks/useNotification";
 
 function App() {
   const { triggerNotification, NotificationComponent } =
-    useNotification("top-right");
+    useNotification("bottom-right");
 
   return (
     <>
@@ -14,7 +14,7 @@ function App() {
             triggerNotification({
               type: "success",
               message: "This is a success message",
-              duration: 3000,
+              duration: 5000,
             })
           }
         >
@@ -26,7 +26,7 @@ function App() {
             triggerNotification({
               type: "info",
               message: "This is a info message",
-              duration: 3000,
+              duration: 5000,
             })
           }
         >
@@ -38,7 +38,7 @@ function App() {
             triggerNotification({
               type: "warning",
               message: "This is a warning message",
-              duration: 3000,
+              duration: 5000,
             })
           }
         >
@@ -50,7 +50,7 @@ function App() {
             triggerNotification({
               type: "error",
               message: "This is a error message",
-              duration: 3000,
+              duration: 5000,
             })
           }
         >

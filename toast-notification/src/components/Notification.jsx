@@ -9,7 +9,6 @@ import {
 import "./Notification.css";
 
 const Notification = ({ type = "info", message, onClose = () => {} }) => {
-
   const icons = {
     success: <AiFillCheckCircle />,
     info: <AiFillInfoCircle />,
