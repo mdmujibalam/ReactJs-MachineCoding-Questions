@@ -3,28 +3,33 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import StepForm from "./components/StepForm";
+import PersonalInfo from "./components/PersonalInfo";
+import AccountInfo from "./components/AccountInfo";
+import PaymentInfo from "./components/PaymentInfo";
+import Summary from "./components/Summary";
+import Confirmation from "./components/Confirmation";
 
 function App() {
   const stepData = [
     {
       label: "Personal Info",
-      content: "Personal Info Content",
+      content: <PersonalInfo/>,
     },
     {
       label: "Account Info",
-      content: "Account Info Content",
+      content: <AccountInfo/>,
     },
     {
       label: "Payment Info",
-      content: "Personal Info Content",
+      content: <PaymentInfo/>,
     },
     {
       label: "Summary",
-      content: "Summary Page",
+      content: <Summary/>,
     },
     {
       label: "Confirmation",
-      content: "Confirmation Page",
+      content: <Confirmation/>,
     },
   ];
 

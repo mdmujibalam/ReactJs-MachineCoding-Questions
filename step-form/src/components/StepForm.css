@@ -52,6 +52,7 @@
   .prev-btn,
   .next-btn {
     padding: 3px;
+    cursor: pointer;
   }
 }
 
