@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.stepper {
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.stepper-container {
+  display: flex;
+  gap: 10px;
+}
+
+.step-number {
+  width: 25px;
+  height: 25px;
+  color: white;
+  background-color: grey;
+  border-radius: 50%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.step-label {
+  align-content: center;
+}
+
+.step-line {
+  width: 2px;
+  height: 25px;
+  position: absolute;
+  background-color: grey;
+  top: 25px;
+  left: 10px;
+}
+
+.active {
+  background-color: green;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+
+  .prev-btn,
+  .next-btn {
+    padding: 3px;
+  }
+}
+
+.main-page-content {
+  display: flex;
+
+  .stepper {
+    width: 30%;
+  }
+
+  .main-content {
+    margin: 10px;
+
+    .btn-container {
+      margin: 10px;
+    }
+  }
+}
