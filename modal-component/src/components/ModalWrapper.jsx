@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import ReactDOM from 'react-dom'
 
 const ModalWrapper = ({closeModal,children}) => {
 
@@ -10,14 +11,14 @@ const ModalWrapper = ({closeModal,children}) => {
     }
   },[])
 
-  return (
+  return ReactDOM.createPortal(
     <>
      <div className="modal-backdrop" onClick={closeModal}></div>
      <div className='modal-wrapper'>
       {children}
     </div>
-    </>
-  )
+    </>, document.querySelector(".modal-root")
+  );
 }
 
 export default ModalWrapper
