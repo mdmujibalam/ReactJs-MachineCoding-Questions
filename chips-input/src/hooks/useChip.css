@@ -1,0 +1,5 @@
+.chip-wrapper{
+    display: flex;
+    text-align: center;
+    gap:10px;
+}
