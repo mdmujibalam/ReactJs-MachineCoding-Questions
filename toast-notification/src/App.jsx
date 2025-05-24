@@ -4,7 +4,7 @@ import useNotification from "./hooks/useNotification";
 
 function App() {
   const { triggerNotification, NotificationComponent } =
-    useNotification("bottom-right");
+    useNotification("top-right");
 
   return (
     <>

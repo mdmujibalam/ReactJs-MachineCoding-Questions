@@ -1,0 +1,41 @@
+.title{
+    margin:20px auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.outer-container{
+    border:1px solid black;
+    height:20px;
+    margin:20px auto;
+    border-radius: 8px;
+    width:400px;
+    overflow: hidden;
+    background-color: lightgray;
+    /* position: relative; */
+}
+
+.inner-container{
+   /* background-color: green; */
+   height:20px; 
+}
+
+.progress-btn{
+    margin:50px auto;
+    text-align: center;
+}
+
+.increment-btn{
+ margin-right: 30px;
+ cursor: pointer;
+}
+
+.decrement-btn{
+  cursor: pointer;
+}
+
+.currProgress{
+    position: absolute;
+    left:45%;
+}
