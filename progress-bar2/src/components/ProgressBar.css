@@ -1,0 +1,23 @@
+.outer-container{
+    width:400px;
+    height:20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow:hidden;
+    margin:20px auto;
+    position: relative;
+}
+
+.inner-container{
+    position: absolute;
+    background-color: #00c251;
+    height:100%;
+    width:100%;
+}
+
+.progressSpan{
+   position: absolute;
+   left: 45%;
+   z-index: 2;
+}
+
