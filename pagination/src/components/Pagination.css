@@ -1,0 +1,31 @@
+.allProducts-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.pageNumber{
+    padding:5px;
+    margin:2px;
+    cursor: pointer;
+}
+
+.pagination-container{
+ margin:20px auto;
+ text-align: center;
+}
+
+.active{
+    background-color: aqua;
+}
+
+.pagination-btn{
+    margin: 2px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.loader{
+    margin:20px auto;
+    text-align: center;
+}
