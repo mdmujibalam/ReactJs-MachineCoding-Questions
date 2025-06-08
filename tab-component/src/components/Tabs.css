@@ -1,0 +1,36 @@
+.title-container{
+    width:600px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin:20px auto;
+    font-weight: 700;
+}
+
+.content-container{
+    text-align: center;
+}
+
+.title{
+    cursor: pointer;
+}
+
+.active{
+    border-bottom: 2px solid blue;
+}
+
+.btn{
+    margin:20px auto;
+    gap:5px;
+    cursor: pointer;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.error{
+    color: red;
+    display: block;
+    font-size: smaller;
+}
