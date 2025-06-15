@@ -25,7 +25,8 @@ const Tabs = () => {
 
         setErrors(err);
 
-        return err.name || err.email || err.age ? false : true;
+        //return err.name || err.email || err.age ? false : true;
+        return Object.keys(err).length > 0 ? false : true;
       },
     },
     {
@@ -40,7 +41,8 @@ const Tabs = () => {
         }
 
         setErrors(err);
-        return err.interests ? false : true;
+       // return err.interests ? false : true;
+       return Object.keys(err).length > 0 ? false : true;
       },
     },
     {
