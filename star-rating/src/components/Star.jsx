@@ -16,8 +16,12 @@ const Star = () => {
                 index <= selectedStar || index <= hoverValue ? "gold" : ""
               }
               onClick={() => setSelectedStar(index)}
-              onMouseEnter={() => setHoverValue(index)}
-              onMouseDown={() => setHoverValue(-1)}
+              onMouseEnter={() => { 
+                setHoverValue(index)
+                if (index < selectedStar) {
+                  setSelectedStar(index);
+                }
+              }}
             >
               &#9733;
             </span>
