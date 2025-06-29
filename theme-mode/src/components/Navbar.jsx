@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", dark ? "dark" : "");
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
   }, [dark]);
 
   useEffect(() => {
